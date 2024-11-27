@@ -1,0 +1,197 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f4f4f4, #e2e2e2);
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin:  15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img-outer:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    transform:translateY(-10px);
+}
+
+
+.hero {
+     
+    
+    color:white;
+    padding: 60px ;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background: #ce442c;
+    color: white;
+    padding: 10px ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+.div1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-outer{
+    height: 270px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
+.img1{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(fiction\ 1.jpeg);
+}
+.img2{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Fiction2.jpeg);
+}
+.img3{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Fiction3.jpeg);
+}
+.img4{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(fiction4.jpeg);
+}
+.img5{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(fiction5.jpeg);
+}
+.img6{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Non\ fiction\ 1.webp);
+}
+.img7{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Non\ fiction\ 2.webp);
+}
+.img8{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Non\ fiction\ 3.webp);
+}
+.img9{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Science\ fiction\ 1.jpeg);
+}
+.img10{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Science\ fiction\ 2.webp);
+}
+.img11{
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(Fiction3.jpeg);
+}
+ 
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+.category {
+    background: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 195px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
